@@ -1,16 +1,69 @@
-# project2
 
-A new Flutter project.
+🛍 Cartify
 
-## Getting Started
+📌 Overview
 
-This project is a starting point for a Flutter application.
+A modern e-commerce mobile application built with Flutter that allows users to:
 
-A few resources to get you started if this is your first Flutter project:
+Search for products.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add or remove items from the cart.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Place and edit orders.
+
+Register and log in with Firebase authentication.
+
+
+
+---
+
+🚀 Features
+
+🔍 Product Search with real-time API integration.
+
+🛒 Cart Management (add, remove, update items).
+
+📦 Order Management (place and edit orders).
+
+🔐 Firebase Authentication for secure login & signup.
+
+💾 Local Storage using SQLite and SharedPreferences.
+
+🎨 Modern UI/UX with responsive design.
+
+
+
+---
+
+🛠 Tech Stack
+
+Framework: Flutter (Dart)
+
+State Management: Cubit/Bloc (if used)
+
+Backend Integration: REST API
+
+Database: SQLite, SharedPreferences
+
+Authentication: Firebase
+
+Design: Material Design + custom modern UI
+
+
+
+---
+
+📷 Screenshots
+
+
+
+---
+
+⚡ Getting Started
+
+1. Clone the repo:
+
+git clone https://github.com/your-username/flutter-store-app.git
+
+
+
