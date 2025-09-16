@@ -1,6 +1,5 @@
-📦 Cartify
-
-Store app (Flutter)
+<h1 align="center">📦 Cartify</h1>
+<h3 align="center">🛒 Store app (Flutter)</h3>
 
 A simple shopping app named Cartify that fetches products from a REST API, supports searching, adding/removing products from the cart, creating and editing orders, and uses a combination of remote and local storage (API + Firebase + SharedPreferences + SQLite).
 
@@ -33,3 +32,4 @@ Networking: http or dio
 Local storage: shared_preferences, sqflite
 
 Remote store: REST API
+
