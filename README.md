@@ -1,69 +1,35 @@
+📦 Cartify
 
-🛍 Cartify
+Store app (Flutter)
 
-📌 Overview
+A simple shopping app named Cartify that fetches products from a REST API, supports searching, adding/removing products from the cart, creating and editing orders, and uses a combination of remote and local storage (API + Firebase + SharedPreferences + SQLite).
 
-A modern e-commerce mobile application built with Flutter that allows users to:
+🔍 Features
 
-Search for products.
+Fetch products from a remote REST API
 
-Add or remove items from the cart.
+Search products (client-side and server-side ready)
 
-Place and edit orders.
+Add / remove products from the cart
 
-Register and log in with Firebase authentication.
+Create and edit orders (send to API)
 
+Persist user/session data with SharedPreferences
 
+Persist cart/order local cache with SQLite
 
----
+Notifications (via Firebase Cloud Messaging)
 
-🚀 Features
+Offline-friendly: show cached data when network unavailable
 
-🔍 Product Search with real-time API integration.
+🧰 Tech stack
 
-🛒 Cart Management (add, remove, update items).
+Flutter (Dart)
 
-📦 Order Management (place and edit orders).
+State management: Cubit / Bloc
 
-🔐 Firebase Authentication for secure login & signup.
+Networking: http or dio
 
-💾 Local Storage using SQLite and SharedPreferences.
+Local storage: shared_preferences, sqflite
 
-🎨 Modern UI/UX with responsive design.
-
-
-
----
-
-🛠 Tech Stack
-
-Framework: Flutter (Dart)
-
-State Management: Cubit/Bloc (if used)
-
-Backend Integration: REST API
-
-Database: SQLite, SharedPreferences
-
-Authentication: Firebase
-
-Design: Material Design + custom modern UI
-
-
-
----
-
-📷 Screenshots
-
-
-
----
-
-⚡ Getting Started
-
-1. Clone the repo:
-
-git clone https://github.com/your-username/flutter-store-app.git
-
-
-
+Remote store: REST API
