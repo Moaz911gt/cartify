@@ -1,35 +1,41 @@
-<h1 align="center">📦 Cartify</h1>
-<h3 align="center">🛒 Store app (Flutter)</h3>
+# 🛒 Cartify
 
-A simple shopping app named Cartify that fetches products from a REST API, supports searching, adding/removing products from the cart, creating and editing orders, and uses a combination of remote and local storage (API + Firebase + SharedPreferences + SQLite).
+Cartify is an **E-Commerce application** built with Flutter.  
+It allows users to browse products, search, add them to the cart, place orders, and edit existing orders.
 
-🔍 Features
+---
 
-Fetch products from a remote REST API
+## ✨ Features
+- Display a list of products.
+- Search for products.
+- Add products to the shopping cart.
+- Manage orders (Add / Edit).
+- Supports **RESTful API** for fetching data.
+- Local storage with **SQLite** and **Shared Preferences**.
+- Integration with **Firebase** for notifications and storage.
+- Modern design using **Flutter & Dart**.
 
-Search products (client-side and server-side ready)
+---
 
-Add / remove products from the cart
+## 📂 Tech Stack
+- **Flutter (Dart)**
+- **Cubit / Bloc** for state management
+- **Dio / http** for API requests
+- **SQLite & SharedPreferences** for local storage
+- **Firebase** (notifications & optional auth)
 
-Create and edit orders (send to API)
+---
 
-Persist user/session data with SharedPreferences
+## 📸 UI Screenshots
+_Add screenshots or GIFs here to show the app UI._
 
-Persist cart/order local cache with SQLite
+---
 
-Notifications (via Firebase Cloud Messaging)
+## 🚀 Getting Started
 
-Offline-friendly: show cached data when network unavailable
-
-🧰 Tech stack
-
-Flutter (Dart)
-
-State management: Cubit / Bloc
-
-Networking: http or dio
-
-Local storage: shared_preferences, sqflite
-
-Remote store: REST API
-
+### Installation
+```bash
+git clone https://github.com/<your-username>/cartify.git
+cd cartify
+flutter pub get
+flutter run
