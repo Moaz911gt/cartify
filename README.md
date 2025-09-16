@@ -26,9 +26,16 @@ It allows users to browse products, search, add them to the cart, place orders, 
 
 ---
 
-## 📸 UI Screenshots
-_Add screenshots or GIFs here to show the app UI._
+## 📷 UI Screenshots  
 
+<p float="left">
+  <img src="assets/screenshots/Screenshot_1758040688.png" width="200" />
+  <img src="assets/screenshots/Screenshot_1758040692.png" width="200" /> 
+  <img src="assets/screenshots/Screenshot_1758040705.png" width="200" />
+  <img src="assets/screenshots/Screenshot_1758043929.png" width="200" />
+  <img src="assets/screenshots/Screenshot_1758044526.png" width="200" />
+
+</p>
 ---
 
 ## 🚀 Getting Started
